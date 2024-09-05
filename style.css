@@ -1,0 +1,43 @@
+.dark {
+    background-color: rgb(62, 62, 62);
+    color : white
+}
+
+
+.darkLightMode {
+    background-color: rgb(255, 255, 255);
+    color : black;
+    border: solid black 3px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.disabled {
+    border: solid red 2px;
+    background-color: rgb(253, 178, 178);
+}
+
+.notDisabled {
+    border: solid green 2px;
+    background-color: rgb(178, 253, 178);
+}
+
+
+
+.card {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border: solid gray 2px;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.card img {
+    width: 150px;
+  
+}
